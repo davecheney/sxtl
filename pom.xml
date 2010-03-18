@@ -23,5 +23,6 @@
 	</dependencyManagement>
 	<modules>
 		<module>sxtl-core</module>
+		<module>sxtl-api</module>
 	</modules>
 </project>

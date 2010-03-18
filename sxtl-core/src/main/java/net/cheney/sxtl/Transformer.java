@@ -2,9 +2,6 @@ package net.cheney.sxtl;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
-
-import com.google.common.collect.Iterables;
 
 import net.cheney.snax.model.Document;
 import net.cheney.snax.model.Element;

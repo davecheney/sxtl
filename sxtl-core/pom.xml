@@ -22,5 +22,10 @@
   		<groupId>com.google.collections</groupId>
   		<artifactId>google-collections</artifactId>
   	</dependency>
+  	<dependency>
+  		<groupId>net.cheney.sxtl</groupId>
+  		<artifactId>sxtl-api</artifactId>
+  		<version>0.1-SNAPSHOT</version>
+  	</dependency>
   </dependencies>
 </project>

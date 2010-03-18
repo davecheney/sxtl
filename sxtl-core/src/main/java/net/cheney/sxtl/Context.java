@@ -13,6 +13,7 @@ public class Context {
 		return new Context();
 	}
 
+	@SuppressWarnings("unchecked")
 	public <T> T get(QName qname) {
 		return (T) values.get(qname);
 	}
