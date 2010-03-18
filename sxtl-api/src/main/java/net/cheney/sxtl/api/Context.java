@@ -1,4 +1,4 @@
-package net.cheney.sxtl;
+package net.cheney.sxtl.api;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -8,6 +8,7 @@ import java.util.Map;
 
 import net.cheney.snax.model.Element;
 import net.cheney.snax.model.Node;
+import net.cheney.sxtl.api.Context;
 import net.cheney.sxtl.api.Method;
 
 public class AnnotatedNamespaceHandler implements NamespaceHandler {

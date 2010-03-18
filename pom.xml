@@ -24,5 +24,6 @@
 	<modules>
 		<module>sxtl-core</module>
 		<module>sxtl-api</module>
+		<module>sxtl-common</module>
 	</modules>
 </project>

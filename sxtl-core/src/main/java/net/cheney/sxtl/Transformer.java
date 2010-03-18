@@ -7,6 +7,7 @@ import net.cheney.snax.model.Document;
 import net.cheney.snax.model.Element;
 import net.cheney.snax.model.Namespace;
 import net.cheney.snax.model.Node;
+import net.cheney.sxtl.api.Context;
 
 public class Transformer {
 

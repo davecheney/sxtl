@@ -11,10 +11,6 @@
   <name>sxtl-core</name>
   <dependencies>
   	<dependency>
-  		<groupId>net.cheney.snax</groupId>
-  		<artifactId>snax-core</artifactId>
-  	</dependency>
-  	<dependency>
   		<groupId>log4j</groupId>
   		<artifactId>log4j</artifactId>
   	</dependency>
