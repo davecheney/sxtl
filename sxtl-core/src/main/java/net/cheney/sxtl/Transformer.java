@@ -2,6 +2,9 @@ package net.cheney.sxtl;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
+
+import com.google.common.collect.Iterables;
 
 import net.cheney.snax.model.Document;
 import net.cheney.snax.model.Element;
@@ -15,11 +18,14 @@ public class Transformer {
 	}
 
 	private Iterable<? extends Node> transform(Iterable<? extends Node> children) {
-		Iterable<? extends Node> source = children;
-		ArrayList<? extends Node> target = new ArrayList<Node>();
-		for(Node node : source) {
-			if(node.type().isElement()) {
-				Iterable<? extends Node> transformed = transform((Element) node);
+		ArrayList<Node> target = new ArrayList<Node>();
+		for(Node child : children) {
+			if(child.type().isElement()) {
+				for(Node node : transform((Element) child)) {
+					target.add(node);
+				}
+			} else {
+				target.add(child);
 			}
 		}
 		return target;
